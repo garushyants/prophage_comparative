@@ -1,0 +1,29 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad summary (v1.7.1). This will summarize the results across  │
+│  modules into a classification report.                                       │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    ecor11_cons_fdr/ecor11_summary                                            │
+│    ├── ecor11_summary.json (execution parameters)                            │
+│    ├── ecor11_virus_summary.tsv (virus classification summary)               │
+│    ├── ecor11_plasmid_summary.tsv (plasmid classification summary)           │
+│    ├── ecor11_virus.fna (virus nucleotide FASTA file)                        │
+│    ├── ecor11_plasmid.fna (plasmid nucleotide FASTA file)                    │
+│    ├── ecor11_virus_proteins.faa (virus protein FASTA file)                  │
+│    ├── ecor11_plasmid_proteins.faa (plasmid protein FASTA file)              │
+│    ├── ecor11_virus_genes.tsv (virus gene annotation data)                   │
+│    └── ecor11_plasmid_genes.tsv (plasmid gene annotation data)               │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[16:59:27] Executing genomad summary.                                           
+[16:59:27] Creating the ecor11_cons_fdr/ecor11_summary directory.               
+[16:59:27] Using calibrated scores from aggregated-classification.              
+[16:59:27] 1 plasmid(s) and 8 virus(es) were identified.                        
+[16:59:27] Nucleotide sequences were written to ecor11_plasmid.fna and          
+           ecor11_virus.fna.                                                    
+[16:59:27] Protein sequences were written to ecor11_plasmid_proteins.faa and    
+           ecor11_virus_proteins.faa.                                           
+[16:59:27] Gene annotation data was written to ecor11_plasmid_genes.tsv and     
+           ecor11_virus_genes.tsv.                                              
+[16:59:27] Summary files were written to ecor11_plasmid_summary.tsv and         
+           ecor11_virus_summary.tsv.                                            
+[16:59:27] geNomad summary finished!                                            

@@ -1,0 +1,9 @@
+seq_name	n_genes_with_taxonomy	agreement	taxid	lineage
+contig_1|provirus_2_25250	24	1.0000	2561	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes
+contig_1|provirus_121798_174548	42	1.0000	2561	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes
+contig_1|provirus_372275_426020	44	1.0000	2561	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes
+contig_1|provirus_819672_865867	51	1.0000	2561	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes
+contig_1|provirus_4122549_4161646	41	1.0000	2561	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes
+contig_1|provirus_4595823_4642581	51	1.0000	2561	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes
+contig_1|provirus_5027440_5038376	10	1.0000	2561	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes
+contig_1|provirus_5146948_5171715	25	1.0000	2561	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes

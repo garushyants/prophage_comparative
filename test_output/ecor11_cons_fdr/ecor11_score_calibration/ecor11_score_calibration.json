@@ -1,0 +1,10 @@
+{
+    "module": "score_calibration",
+    "input": "ecor11.fasta.gz",
+    "input_md5": "7e38027a74006a7ba2e0a86290080c8a",
+    "start_time": "2024-07-03T16:59:26.726207-04:00",
+    "parameters": {
+        "composition": "auto",
+        "force_auto": false
+    }
+}

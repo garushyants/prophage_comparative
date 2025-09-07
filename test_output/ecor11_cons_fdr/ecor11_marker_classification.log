@@ -1,0 +1,42 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad marker-classification (v1.7.1). This will classify the    │
+│  input sequences into chromosome, plasmid, or virus based on the presence    │
+│  of geNomad markers and other gene-related features.                         │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    ecor11_cons_fdr/ecor11_marker_classification                              │
+│    ├── ecor11_marker_classification.json (execution parameters)              │
+│    ├── ecor11_features.tsv (sequence feature data: tabular format)           │
+│    ├── ecor11_features.npz (sequence feature data: binary format)            │
+│    ├── ecor11_marker_classification.tsv (sequence classification: tabular    │
+│    │   format)                                                               │
+│    ├── ecor11_marker_classification.npz (sequence classification: binary     │
+│    │   format)                                                               │
+│    ├── ecor11_provirus_features.tsv (provirus feature data: tabular format)  │
+│    ├── ecor11_provirus_features.npz (provirus feature data: binary format)   │
+│    ├── ecor11_provirus_marker_classification.tsv (provirus classification:   │
+│    │   tabular format)                                                       │
+│    └── ecor11_provirus_marker_classification.npz (provirus classification:   │
+│        binary format)                                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[16:58:25] Executing genomad marker-classification.                             
+[16:58:25] Creating the ecor11_cons_fdr/ecor11_marker_classification directory. 
+[16:58:26] Sequence features computed.                                          
+[16:58:26] Sequence features in binary format written to ecor11_features.npz.   
+[16:58:26] Sequence features in tabular format written to ecor11_features.tsv.  
+[16:58:26] Provirus features computed.                                          
+[16:58:26] Provirus features in binary format written to                        
+           ecor11_provirus_features.npz.                                        
+[16:58:26] Provirus features in tabular format written to                       
+           ecor11_provirus_features.tsv.                                        
+[16:58:27] Sequences classified.                                                
+[16:58:27] Sequence classification in binary format written to                  
+           ecor11_marker_classification.npz.                                    
+[16:58:27] Sequence classification in tabular format written to                 
+           ecor11_marker_classification.tsv.                                    
+[16:58:28] Proviruses classified.                                               
+[16:58:28] Provirus classification in binary format written to                  
+           ecor11_provirus_marker_classification.npz.                           
+[16:58:28] Provirus classification in tabular format written to                 
+           ecor11_provirus_marker_classification.tsv.                           
+[16:58:28] geNomad marker-classification finished!                              

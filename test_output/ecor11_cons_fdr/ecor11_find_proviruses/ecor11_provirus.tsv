@@ -1,0 +1,9 @@
+seq_name	source_seq	start	end	length	n_genes	v_vs_c_score	in_seq_edge	integrases
+contig_1|provirus_2_25250	contig_1	2	25250	25249	29	41.1440	True	NA
+contig_1|provirus_121798_174548	contig_1	121798	174548	52751	65	76.3176	False	NA
+contig_1|provirus_372275_426020	contig_1	372275	426020	53746	71	78.3132	False	NA
+contig_1|provirus_819672_865867	contig_1	819672	865867	46196	63	94.9170	False	NA
+contig_1|provirus_4122549_4161646	contig_1	4122549	4161646	39098	58	77.1904	False	NA
+contig_1|provirus_4595823_4642581	contig_1	4595823	4642581	46759	64	86.8788	False	NA
+contig_1|provirus_5027440_5038376	contig_1	5027440	5038376	10937	21	24.0940	False	NA
+contig_1|provirus_5146948_5171715	contig_1	5146948	5171715	24768	38	46.4007	True	NA

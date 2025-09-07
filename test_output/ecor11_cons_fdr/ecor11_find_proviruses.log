@@ -1,0 +1,33 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad find-proviruses (v1.7.1). This will find putative         │
+│  proviral regions within the input sequences.                                │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    ecor11_cons_fdr/ecor11_find_proviruses                                    │
+│    ├── ecor11_find_proviruses.json (execution parameters)                    │
+│    ├── ecor11_provirus.tsv (provirus data)                                   │
+│    ├── ecor11_provirus.fna (provirus nucleotide sequences)                   │
+│    ├── ecor11_provirus_proteins.faa (provirus protein sequences)             │
+│    ├── ecor11_provirus_genes.tsv (provirus gene annotation data)             │
+│    ├── ecor11_provirus_taxonomy.tsv (provirus taxonomic assignment)          │
+│    ├── ecor11_provirus_mmseqs2.tsv (MMseqs2 output file)                     │
+│    └── ecor11_provirus_aragorn.tsv (Aragorn output file)                     │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[16:58:06] Executing genomad find-proviruses.                                   
+[16:58:06] Creating the ecor11_cons_fdr/ecor11_find_proviruses directory.       
+[16:58:16] Integrases identified with MMseqs2 and geNomad database (v1.6) were  
+           written to ecor11_provirus_mmseqs2.tsv.                              
+[16:58:16] Deleting ecor11_provirus_mmseqs2.                                    
+[16:58:17] Deleting ecor11_provirus_mmseqs2_input.faa.                          
+[16:58:24] tRNAs identified with Aragorn were written to                        
+           ecor11_provirus_aragorn.tsv.                                         
+[16:58:24] Deleting ecor11_provirus_aragorn_input.fna.                          
+[16:58:25] Provirus regions identified.                                         
+[16:58:25] Provirus data was written to ecor11_provirus.tsv.                    
+[16:58:25] Provirus nucleotide sequences were written to ecor11_provirus.fna.   
+[16:58:25] Provirus protein sequences were written to                           
+           ecor11_provirus_proteins.faa.                                        
+[16:58:25] Provirus gene data was written to ecor11_provirus_genes.tsv.         
+[16:58:25] Taxonomic assignment data was written to                             
+           ecor11_provirus_taxonomy.tsv.                                        
+[16:58:25] geNomad find-proviruses finished!                                    

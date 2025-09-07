@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+contig_1|provirus_5146948_5171715_29 -          VOG17765             -            4.2e-21   69.3   0.3   5.8e-21   68.8   0.3   1.2   1   0   0   1   1   1   1 # 18328 # 18597 # 1 # ID=1_29;partial=00;start_type=GTG;rbs_motif=GGxGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.537
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /net/intdev/cbb01/garushyants/CheckVDb/checkv-db-v1.5/hmm_db/checkv_hmms/63.hmm
+# Target file:     ecor11_cons_fdr_checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout ecor11_cons_fdr_checkv/tmp/hmmsearch/63.hmmout --noali -E 10 --cpu 0 /net/intdev/cbb01/garushyants/CheckVDb/checkv-db-v1.5/hmm_db/checkv_hmms/63.hmm ecor11_cons_fdr_checkv/tmp/proteins.faa 
+# Current dir:     /net/intdev/cbb01/garushyants/phages_Ecoli/20240703_prophage_prediction_ECOR20_Nobrega
+# Date:            Wed Jul  3 16:59:47 2024
+# [ok]

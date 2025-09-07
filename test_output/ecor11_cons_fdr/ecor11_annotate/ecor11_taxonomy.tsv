@@ -1,0 +1,3 @@
+seq_name	n_genes_with_taxonomy	agreement	taxid	lineage
+contig_2	5	1.0000	2561	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes
+contig_1	586	0.9909	2561	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes

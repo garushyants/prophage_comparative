@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+contig_1|provirus_4122549_4161646_46 -          TIGR00235            TIGR00235     0.0027   11.9   0.0    0.0056   10.9   0.0   1.5   1   1   0   1   1   1   1 # 32874 # 34040 # 1 # ID=1_46;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.547
+contig_1|provirus_5146948_5171715_20 -          TIGR00270            TIGR00270      0.001   13.4   0.1    0.0017   12.7   0.1   1.4   1   0   0   1   1   1   1 # 12641 # 13261 # 1 # ID=1_20;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.427
+contig_1|provirus_819672_865867_20 -          TIGR00493            TIGR00493    5.6e-05   17.5   1.1     9e-05   16.9   0.2   1.8   2   0   0   2   2   2   1 # 17218 # 18402 # -1 # ID=1_20;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.604
+contig_1|provirus_2_25250_7        -          TIGR00493            TIGR00493    0.00043   14.6   1.7   0.00068   14.0   0.3   2.0   2   1   1   3   3   3   1 # 4419 # 5924 # 1 # ID=1_7;partial=00;start_type=GTG;rbs_motif=AGGAG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.601
+contig_1|provirus_4595823_4642581_21 -          TIGR00498            TIGR00498    4.3e-12   40.6   0.0     6e-12   40.1   0.0   1.1   1   0   0   1   1   1   1 # 9676 # 10371 # -1 # ID=1_21;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.460
+contig_1|provirus_372275_426020_5 -          TIGR00883            TIGR00883   1.4e-137  453.5  28.4  1.6e-137  453.3  28.4   1.0   1   0   0   1   1   1   1 # 3486 # 4769 # -1 # ID=1_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.470
+contig_1|provirus_372275_426020_5 -          TIGR00886            TIGR00886    7.6e-09   29.6  20.8   7.6e-09   29.6  20.8   1.7   1   1   0   1   1   1   1 # 3486 # 4769 # -1 # ID=1_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.470
+contig_1|provirus_121798_174548_34 -          TIGR00933            TIGR00933     2e-108  357.5  11.8    2e-108  357.5  11.8   1.4   2   0   0   2   2   2   1 # 22792 # 24009 # 1 # ID=1_34;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.384
+contig_1|provirus_121798_174548_35 -          TIGR00933            TIGR00933    9.6e-15   49.1   6.9   1.1e-14   48.9   6.9   1.0   1   0   0   1   1   1   1 # 23955 # 24215 # 1 # ID=1_35;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.345
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /net/intdev/cbb01/garushyants/CheckVDb/checkv-db-v1.5/hmm_db/checkv_hmms/20.hmm
+# Target file:     ecor11_cons_fdr_checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout ecor11_cons_fdr_checkv/tmp/hmmsearch/20.hmmout --noali -E 10 --cpu 0 /net/intdev/cbb01/garushyants/CheckVDb/checkv-db-v1.5/hmm_db/checkv_hmms/20.hmm ecor11_cons_fdr_checkv/tmp/proteins.faa 
+# Current dir:     /net/intdev/cbb01/garushyants/phages_Ecoli/20240703_prophage_prediction_ECOR20_Nobrega
+# Date:            Wed Jul  3 16:59:43 2024
+# [ok]

@@ -1,0 +1,29 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+contig_1|provirus_4122549_4161646_50 -          K01042               -            0.00059   13.4   0.5   0.00056   13.4   0.5   1.0   1   0   0   1   1   1   1 # 35159 # 35431 # 1 # ID=1_50;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.590
+contig_1|provirus_5146948_5171715_28 -          K01090               -            8.8e-17   55.5   0.0     1e-16   55.3   0.0   1.1   1   0   0   1   1   1   1 # 17411 # 18160 # 1 # ID=1_28;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.387
+contig_1|provirus_4595823_4642581_34 -          K01185               -            1.2e-47  157.6   0.2   1.2e-47  157.5   0.2   1.0   1   0   0   1   1   1   1 # 17821 # 18318 # 1 # ID=1_34;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.472
+contig_1|provirus_121798_174548_32   -          K01185               -            3.2e-47  156.2   0.2   3.5e-47  156.0   0.2   1.0   1   0   0   1   1   1   1 # 21664 # 22161 # 1 # ID=1_32;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.464
+contig_1|provirus_819672_865867_28   -          K01185               -            4.4e-31  103.1   0.0   5.1e-31  102.9   0.0   1.0   1   0   0   1   1   1   1 # 24092 # 24625 # -1 # ID=1_28;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.549
+contig_1|provirus_5146948_5171715_35 -          K01185               -            8.5e-31  102.2   0.1   9.7e-31  102.0   0.1   1.0   1   0   0   1   1   1   1 # 22781 # 23347 # 1 # ID=1_35;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.538
+contig_1|provirus_372275_426020_38   -          K01185               -              1e-28   95.3   0.1   1.2e-28   95.2   0.1   1.0   1   0   0   1   1   1   1 # 33078 # 33611 # -1 # ID=1_38;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.506
+contig_1|provirus_5146948_5171715_27 -          K01412               -            1.2e-09   31.4   0.0   1.4e-09   31.2   0.0   1.0   1   0   0   1   1   1   1 # 16659 # 17414 # 1 # ID=1_27;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.372
+contig_1|provirus_372275_426020_37   -          K01421               -             0.0011   11.9   2.7    0.0013   11.6   2.7   1.1   1   0   0   1   1   1   1 # 32584 # 33081 # -1 # ID=1_37;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.458
+contig_1|provirus_4595823_4642581_58 -          K01421               -                6.2   -0.6  56.2       8.6   -1.1  56.2   1.1   1   0   0   1   1   1   0 # 38831 # 41185 # 1 # ID=1_58;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.479
+contig_1|provirus_372275_426020_44 -          K01456               -              0.002   11.5   0.1    0.0025   11.2   0.1   1.1   1   0   0   1   1   1   1 # 36809 # 37141 # -1 # ID=1_44;partial=00;start_type=GTG;rbs_motif=AGGA;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.505
+contig_1|provirus_372275_426020_1 -          K01489               -            0.00076   13.7   0.0   0.00088   13.4   0.0   1.1   1   0   0   1   1   1   1 # 1 # 747 # 1 # ID=1_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.506
+contig_1|provirus_4122549_4161646_51 -          K01523               -            1.4e-05   19.5   0.8   2.2e-05   18.9   0.4   1.5   1   1   1   2   2   2   1 # 35441 # 35737 # 1 # ID=1_51;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.586
+contig_1|provirus_121798_174548_17 -          K01551               -            0.00014   15.6   0.0   0.00014   15.5   0.0   1.1   1   0   0   1   1   1   1 # 9788 # 10534 # 1 # ID=1_17;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.530
+contig_1|provirus_121798_174548_35 -          K01681               -             0.0078    8.6   0.3    0.0087    8.5   0.3   1.0   1   0   0   1   1   1   1 # 23955 # 24215 # 1 # ID=1_35;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.345
+contig_1|provirus_4122549_4161646_42 -          K01725               -            0.00036   14.9   0.0   0.00036   14.9   0.0   1.0   1   0   0   1   1   1   1 # 29617 # 29805 # 1 # ID=1_42;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.481
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /net/intdev/cbb01/garushyants/CheckVDb/checkv-db-v1.5/hmm_db/checkv_hmms/25.hmm
+# Target file:     ecor11_cons_fdr_checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout ecor11_cons_fdr_checkv/tmp/hmmsearch/25.hmmout --noali -E 10 --cpu 0 /net/intdev/cbb01/garushyants/CheckVDb/checkv-db-v1.5/hmm_db/checkv_hmms/25.hmm ecor11_cons_fdr_checkv/tmp/proteins.faa 
+# Current dir:     /net/intdev/cbb01/garushyants/phages_Ecoli/20240703_prophage_prediction_ECOR20_Nobrega
+# Date:            Wed Jul  3 16:59:56 2024
+# [ok]

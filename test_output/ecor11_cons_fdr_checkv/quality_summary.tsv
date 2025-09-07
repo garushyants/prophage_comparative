@@ -1,0 +1,9 @@
+contig_id	contig_length	provirus	proviral_length	gene_count	viral_genes	host_genes	checkv_quality	miuvig_quality	completeness	completeness_method	contamination	kmer_freq	warnings
+contig_1|provirus_2_25250	25249	No	NA	29	22	1	Medium-quality	Genome-fragment	54.37	AAI-based (high-confidence)	0.0	1.0	
+contig_1|provirus_121798_174548	52751	No	NA	65	35	3	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.05	
+contig_1|provirus_372275_426020	53746	Yes	45843	71	35	10	Complete	High-quality	100.0	Provirus (high-confidence)	14.7	1.0	
+contig_1|provirus_819672_865867	46196	No	NA	63	41	2	Medium-quality	Genome-fragment	74.08	HMM-based (lower-bound)	0.0	1.0	
+contig_1|provirus_4122549_4161646	39098	Yes	37910	58	31	4	High-quality	High-quality	100.0	AAI-based (medium-confidence)	3.04	1.03	
+contig_1|provirus_4595823_4642581	46759	No	NA	64	47	0	High-quality	High-quality	98.49	AAI-based (high-confidence)	0.0	1.0	
+contig_1|provirus_5027440_5038376	10937	No	NA	21	5	1	High-quality	High-quality	92.92	AAI-based (high-confidence)	0.0	1.0	
+contig_1|provirus_5146948_5171715	24768	No	NA	38	13	3	Medium-quality	Genome-fragment	54.86	AAI-based (high-confidence)	0.0	1.0	

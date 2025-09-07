@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+contig_1|provirus_5027440_5038376_11 -          FAM000297            -            4.8e-09   29.8   0.0   6.7e-09   29.3   0.0   1.1   1   0   0   1   1   1   1 # 3482 # 4363 # 1 # ID=1_11;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;genetic_code=11;gc_cont=0.520
+contig_1|provirus_121798_174548_58   -          FAM000396            -             0.0082    8.6  25.0      0.01    8.3  25.0   1.1   1   0   0   1   1   1   1 # 46062 # 48050 # 1 # ID=1_58;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.493
+contig_1|provirus_4595823_4642581_58 -          FAM000396            -                0.1    5.0  27.2      0.14    4.6  27.2   1.1   1   0   0   1   1   1   0 # 38831 # 41185 # 1 # ID=1_58;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.479
+contig_1|provirus_819672_865867_3    -          FAM000396            -                1.1    1.6  16.2       1.5    1.1  16.2   1.1   1   0   0   1   1   1   0 # 573 # 2639 # -1 # ID=1_3;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.479
+contig_1|provirus_5146948_5171715_27 -          FAM000539            -              9e-14   46.2   0.4   1.1e-13   45.9   0.4   1.2   1   0   0   1   1   1   1 # 16659 # 17414 # 1 # ID=1_27;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.372
+contig_1|provirus_4595823_4642581_37 -          FAM000699            -            0.00033   14.5   0.0   0.00036   14.4   0.0   1.0   1   0   0   1   1   1   1 # 20045 # 20590 # 1 # ID=1_37;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.527
+contig_1|provirus_372275_426020_32   -          FAM000699            -            0.00038   14.3   0.0   0.00042   14.2   0.0   1.0   1   0   0   1   1   1   1 # 29379 # 29924 # -1 # ID=1_32;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.527
+contig_1|provirus_819672_865867_3 -          FAM000737            -               0.16    5.4  18.2      0.24    4.8  18.2   1.1   1   0   0   1   1   1   0 # 573 # 2639 # -1 # ID=1_3;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.479
+contig_1|provirus_819672_865867_3 -          FAM001214            -             0.0045    9.6  15.6    0.0057    9.3  15.6   1.1   1   0   0   1   1   1   1 # 573 # 2639 # -1 # ID=1_3;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.479
+contig_1|provirus_121798_174548_17   -          FAM001681            -             0.0013   12.0   0.1    0.0022   11.3   0.1   1.4   1   1   0   1   1   1   1 # 9788 # 10534 # 1 # ID=1_17;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.530
+contig_1|provirus_4122549_4161646_38 -          FAM001681            -             0.0018   11.6   0.0    0.0021   11.4   0.0   1.1   1   0   0   1   1   1   1 # 26937 # 27413 # 1 # ID=1_38;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.543
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /net/intdev/cbb01/garushyants/CheckVDb/checkv-db-v1.5/hmm_db/checkv_hmms/76.hmm
+# Target file:     ecor11_cons_fdr_checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout ecor11_cons_fdr_checkv/tmp/hmmsearch/76.hmmout --noali -E 10 --cpu 0 /net/intdev/cbb01/garushyants/CheckVDb/checkv-db-v1.5/hmm_db/checkv_hmms/76.hmm ecor11_cons_fdr_checkv/tmp/proteins.faa 
+# Current dir:     /net/intdev/cbb01/garushyants/phages_Ecoli/20240703_prophage_prediction_ECOR20_Nobrega
+# Date:            Wed Jul  3 16:59:51 2024
+# [ok]

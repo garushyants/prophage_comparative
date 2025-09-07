@@ -1,0 +1,2 @@
+contig_id	contig_length	kmer_freq	prediction_type	confidence_level	confidence_reason	repeat_length	repeat_count	repeat_n_freq	repeat_mode_base_freq	repeat_seq
+contig_1|provirus_372275_426020	53746	1.0	Provirus	high	AAI-based completeness > 90%	NA	NA	NA	NA	NA

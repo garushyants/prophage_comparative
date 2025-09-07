@@ -1,0 +1,1 @@
+hmmsearch --noali -o /dev/null -E 10 --tblout ecor11_cons_fdr_checkv/tmp/hmmsearch/20.hmmout --cpu 0 /net/intdev/cbb01/garushyants/CheckVDb/checkv-db-v1.5/hmm_db/checkv_hmms/20.hmm ecor11_cons_fdr_checkv/tmp/proteins.faa 2> ecor11_cons_fdr_checkv/tmp/hmmsearch/20.hmmout.log 

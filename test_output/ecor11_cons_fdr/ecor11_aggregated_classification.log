@@ -1,0 +1,32 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad aggregated-classification (v1.7.1). This will aggregate   │
+│  the results of the marker-classification and nn-classification modules to   │
+│  classify the input sequences into chromosome, plasmid, or virus.            │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    ecor11_cons_fdr/ecor11_aggregated_classification                          │
+│    ├── ecor11_aggregated_classification.json (execution parameters)          │
+│    ├── ecor11_aggregated_classification.tsv (sequence classification:        │
+│    │   tabular format)                                                       │
+│    ├── ecor11_aggregated_classification.npz (sequence classification:        │
+│    │   binary format)                                                        │
+│    ├── ecor11_provirus_aggregated_classification.tsv (provirus               │
+│    │   classification: tabular format)                                       │
+│    └── ecor11_provirus_aggregated_classification.npz (provirus               │
+│        classification: binary format)                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[16:59:26] Executing genomad aggregated-classification.                         
+[16:59:26] Creating the ecor11_cons_fdr/ecor11_aggregated_classification        
+           directory.                                                           
+[16:59:26] The total marker frequencies of the input sequences were computed.   
+[16:59:26] Sequences classified.                                                
+[16:59:26] Sequence classification in binary format written to                  
+           ecor11_aggregated_classification.npz.                                
+[16:59:26] Sequence classification in tabular format written to                 
+           ecor11_aggregated_classification.tsv.                                
+[16:59:26] Proviruses classified.                                               
+[16:59:26] Provirus classification in binary format written to                  
+           ecor11_provirus_aggregated_classification.npz.                       
+[16:59:26] Provirus classification in tabular format written to                 
+           ecor11_provirus_aggregated_classification.tsv.                       
+[16:59:26] geNomad aggregated-classification finished!                          

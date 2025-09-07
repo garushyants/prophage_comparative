@@ -1,0 +1,30 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+contig_1|provirus_2_25250_15         -          VOG03561             -             0.0035   12.1   0.0    0.0061   11.4   0.0   1.4   1   0   0   1   1   1   1 # 9890 # 10321 # 1 # ID=1_15;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.523
+contig_1|provirus_819672_865867_12   -          VOG03561             -             0.0036   12.1   0.0    0.0064   11.3   0.0   1.4   1   0   0   1   1   1   1 # 12757 # 13188 # -1 # ID=1_12;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.528
+contig_1|provirus_372275_426020_18   -          VOG03561             -             0.0037   12.1   0.0    0.0072   11.1   0.0   1.5   1   0   0   1   1   1   1 # 19985 # 20407 # -1 # ID=1_18;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.522
+contig_1|provirus_4595823_4642581_50 -          VOG03561             -             0.0037   12.1   0.0    0.0072   11.1   0.0   1.5   1   0   0   1   1   1   1 # 29564 # 29986 # 1 # ID=1_50;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.522
+contig_1|provirus_4595823_4642581_35 -          VOG03617             -             0.0012   13.1   0.0    0.0019   12.5   0.0   1.3   1   0   0   1   1   1   1 # 18315 # 18716 # 1 # ID=1_35;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.527
+contig_1|provirus_121798_174548_33   -          VOG03617             -             0.0013   13.1   0.0     0.002   12.4   0.0   1.3   1   0   0   1   1   1   1 # 22158 # 22562 # 1 # ID=1_33;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.528
+contig_1|provirus_2_25250_29 -          VOG03643             -            1.3e-13   45.5   0.1   1.3e-13   45.5   0.1   1.0   1   0   0   1   1   1   1 # 25079 # 25249 # 1 # ID=1_29;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.503
+contig_1|provirus_819672_865867_45 -          VOG03647             -            7.9e-14   46.0   4.3   8.7e-14   45.9   4.3   1.0   1   0   0   1   1   1   1 # 34381 # 34563 # -1 # ID=1_45;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.366
+contig_1|provirus_121798_174548_12 -          VOG03693             -             0.0016   12.9   0.0    0.0031   12.0   0.0   1.5   1   0   0   1   1   1   1 # 7744 # 8163 # -1 # ID=1_12;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.405
+contig_1|provirus_372275_426020_2 -          VOG03694             -             0.0019   12.5   0.0    0.0033   11.8   0.0   1.3   1   0   0   1   1   1   1 # 836 # 1522 # 1 # ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.501
+contig_1|provirus_372275_426020_47   -          VOG03801             -            8.3e-24   78.1   1.8   8.9e-24   78.0   1.8   1.0   1   0   0   1   1   1   1 # 38672 # 38827 # -1 # ID=1_47;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.519
+contig_1|provirus_819672_865867_42   -          VOG03801             -            8.3e-24   78.1   1.8   8.9e-24   78.0   1.8   1.0   1   0   0   1   1   1   1 # 32987 # 33142 # -1 # ID=1_42;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.519
+contig_1|provirus_5146948_5171715_17 -          VOG03801             -            2.1e-23   76.8   1.8   2.5e-23   76.6   1.8   1.1   1   0   0   1   1   1   1 # 10857 # 11069 # 1 # ID=1_17;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.516
+contig_1|provirus_4595823_4642581_10 -          VOG03907             -              8e-50  162.1   5.6   8.8e-50  161.9   5.6   1.0   1   0   0   1   1   1   1 # 5005 # 5301 # -1 # ID=1_10;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.505
+contig_1|provirus_5146948_5171715_9 -          VOG03995             -             0.0016   13.1   0.0     0.002   12.7   0.0   1.1   1   0   0   1   1   1   1 # 5773 # 6237 # -1 # ID=1_9;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.437
+contig_1|provirus_4122549_4161646_6 -          VOG03998             -            6.3e-06   20.9   8.0      0.79    4.6   0.0   6.2   6   1   1   7   7   7   5 # 2868 # 4439 # -1 # ID=1_6;partial=00;start_type=GTG;rbs_motif=4Base/6BMM;rbs_spacer=13-15bp;genetic_code=11;gc_cont=0.562
+contig_1|provirus_4122549_4161646_52 -          VOG04202             -            0.00041   15.0   1.5   0.00054   14.7   1.5   1.2   1   0   0   1   1   1   1 # 35752 # 35967 # 1 # ID=1_52;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.528
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /net/intdev/cbb01/garushyants/CheckVDb/checkv-db-v1.5/hmm_db/checkv_hmms/49.hmm
+# Target file:     ecor11_cons_fdr_checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout ecor11_cons_fdr_checkv/tmp/hmmsearch/49.hmmout --noali -E 10 --cpu 0 /net/intdev/cbb01/garushyants/CheckVDb/checkv-db-v1.5/hmm_db/checkv_hmms/49.hmm ecor11_cons_fdr_checkv/tmp/proteins.faa 
+# Current dir:     /net/intdev/cbb01/garushyants/phages_Ecoli/20240703_prophage_prediction_ECOR20_Nobrega
+# Date:            Wed Jul  3 16:59:49 2024
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+contig_1|provirus_819672_865867_3 -          VOG10635             -               0.16    5.5  33.2       0.5    3.9  33.6   1.5   2   0   0   2   2   2   0 # 573 # 2639 # -1 # ID=1_3;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.479
+contig_1|provirus_372275_426020_68 -          VOG10806             -            1.1e-28   93.4   0.1   1.2e-28   93.3   0.1   1.0   1   0   0   1   1   1   1 # 50988 # 51224 # 1 # ID=1_68;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.447
+contig_1|provirus_121798_174548_2  -          VOG10806             -            1.8e-11   38.2   0.0   1.9e-11   38.1   0.0   1.0   1   0   0   1   1   1   1 # 1238 # 1453 # -1 # ID=1_2;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.449
+contig_1|provirus_4122549_4161646_22 -          VOG10810             -            7.4e-05   17.1   0.0   0.00016   16.0   0.0   1.5   1   1   0   1   1   1   1 # 15992 # 16456 # -1 # ID=1_22;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.589
+contig_1|provirus_4122549_4161646_46 -          VOG10985             -              0.003   11.8   0.0     0.041    8.1   0.0   2.2   2   0   0   2   2   2   1 # 32874 # 34040 # 1 # ID=1_46;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.547
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /net/intdev/cbb01/garushyants/CheckVDb/checkv-db-v1.5/hmm_db/checkv_hmms/55.hmm
+# Target file:     ecor11_cons_fdr_checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout ecor11_cons_fdr_checkv/tmp/hmmsearch/55.hmmout --noali -E 10 --cpu 0 /net/intdev/cbb01/garushyants/CheckVDb/checkv-db-v1.5/hmm_db/checkv_hmms/55.hmm ecor11_cons_fdr_checkv/tmp/proteins.faa 
+# Current dir:     /net/intdev/cbb01/garushyants/phages_Ecoli/20240703_prophage_prediction_ECOR20_Nobrega
+# Date:            Wed Jul  3 16:59:44 2024
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+contig_1|provirus_2_25250_23       -          VOG05139             -             0.0008   14.5   1.8    0.0024   12.9   1.8   1.8   1   0   0   1   1   1   1 # 16013 # 19486 # 1 # ID=1_23;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.568
+contig_1|provirus_372275_426020_11 -          VOG05139             -              0.013   10.5   5.9    0.0025   12.9   1.9   1.9   2   0   0   2   2   2   0 # 11115 # 14612 # -1 # ID=1_11;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.563
+contig_1|provirus_819672_865867_3 -          VOG05510             -                1.5    1.4  20.6       2.2    0.9  20.6   1.1   1   0   0   1   1   1   0 # 573 # 2639 # -1 # ID=1_3;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.479
+contig_1|provirus_121798_174548_37 -          VOG05558             -             0.0034   12.1   0.2     0.008   10.9   0.2   1.6   1   0   0   1   1   1   1 # 25140 # 26072 # 1 # ID=1_37;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.478
+contig_1|provirus_372275_426020_64 -          VOG06728             -             0.0024   11.4   0.0    0.0025   11.4   0.0   1.0   1   0   0   1   1   1   1 # 47962 # 48150 # 1 # ID=1_64;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.360
+contig_1|provirus_5027440_5038376_11 -          VOG07037             -             0.0031    9.8   0.0    0.0037    9.5   0.0   1.0   1   0   0   1   1   1   1 # 3482 # 4363 # 1 # ID=1_11;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;genetic_code=11;gc_cont=0.520
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /net/intdev/cbb01/garushyants/CheckVDb/checkv-db-v1.5/hmm_db/checkv_hmms/51.hmm
+# Target file:     ecor11_cons_fdr_checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout ecor11_cons_fdr_checkv/tmp/hmmsearch/51.hmmout --noali -E 10 --cpu 0 /net/intdev/cbb01/garushyants/CheckVDb/checkv-db-v1.5/hmm_db/checkv_hmms/51.hmm ecor11_cons_fdr_checkv/tmp/proteins.faa 
+# Current dir:     /net/intdev/cbb01/garushyants/phages_Ecoli/20240703_prophage_prediction_ECOR20_Nobrega
+# Date:            Wed Jul  3 16:59:39 2024
+# [ok]

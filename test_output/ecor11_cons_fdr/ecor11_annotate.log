@@ -1,0 +1,23 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad annotate (v1.7.1). This will perform gene calling in the  │
+│  input sequences and annotate the predicted proteins with geNomad's          │
+│  markers.                                                                    │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    ecor11_cons_fdr/ecor11_annotate                                           │
+│    ├── ecor11_annotate.json (execution parameters)                           │
+│    ├── ecor11_genes.tsv (gene annotation data)                               │
+│    ├── ecor11_taxonomy.tsv (taxonomic assignment)                            │
+│    ├── ecor11_mmseqs2.tsv (MMseqs2 output file)                              │
+│    └── ecor11_proteins.faa (protein FASTA file)                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[16:55:56] Executing genomad annotate.                                          
+[16:55:56] Creating the ecor11_cons_fdr/ecor11_annotate directory.              
+[16:56:14] Proteins predicted with pyrodigal-gv were written to                 
+           ecor11_proteins.faa.                                                 
+[16:58:04] Proteins annotated with MMseqs2 and geNomad database (v1.6) were     
+           written to ecor11_mmseqs2.tsv.                                       
+[16:58:04] Deleting ecor11_mmseqs2.                                             
+[16:58:06] Gene data was written to ecor11_genes.tsv.                           
+[16:58:06] Taxonomic assignment data was written to ecor11_taxonomy.tsv.        
+[16:58:06] geNomad annotate finished!                                           

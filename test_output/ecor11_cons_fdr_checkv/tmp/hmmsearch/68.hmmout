@@ -1,0 +1,30 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+contig_1|provirus_121798_174548_62   -          AGG91252@HQ317388    -            5.3e-09   30.0   0.3   1.1e-08   28.9   0.2   1.6   1   1   0   1   1   1   1 # 50040 # 51080 # 1 # ID=1_62;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.445
+contig_1|provirus_4595823_4642581_60 -          AGG91252@HQ317388    -            2.2e-08   28.0   0.1   5.7e-08   26.6   0.0   1.6   1   1   0   1   1   1   1 # 41467 # 42507 # 1 # ID=1_60;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.403
+contig_1|provirus_4122549_4161646_16 -          AGH07772@HQ317392    -            5.4e-06   19.4  22.6    0.0016   11.2   4.7   4.5   3   1   1   4   4   4   4 # 9716 # 12928 # -1 # ID=1_16;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.524
+contig_1|provirus_372275_426020_19   -          AGH31825@HQ634153    -            9.7e-08   26.6   0.4   1.2e-06   23.1   0.0   2.1   1   1   1   2   2   2   1 # 20423 # 21163 # -1 # ID=1_19;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.579
+contig_1|provirus_4595823_4642581_49 -          AGH31825@HQ634153    -            9.7e-08   26.6   0.4   1.2e-06   23.1   0.0   2.1   1   1   1   2   2   2   1 # 28808 # 29548 # 1 # ID=1_49;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.579
+contig_1|provirus_2_25250_14         -          AGH31825@HQ634153    -            1.5e-05   19.6   0.6   0.00013   16.5   0.0   2.1   1   1   1   2   2   2   1 # 9124 # 9876 # 1 # ID=1_14;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.547
+contig_1|provirus_819672_865867_13   -          AGH31825@HQ634153    -            5.5e-05   17.7   0.2   0.00017   16.1   0.0   1.8   1   1   1   2   2   2   1 # 13207 # 13953 # -1 # ID=1_13;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.527
+contig_1|provirus_121798_174548_4  -          AGN34082@JF974294    -            3.9e-10   34.6   0.5   4.8e-10   34.4   0.5   1.1   1   0   0   1   1   1   1 # 1734 # 1967 # -1 # ID=1_4;partial=00;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=3-4bp;genetic_code=11;gc_cont=0.385
+contig_1|provirus_819672_865867_37 -          AGN34082@JF974294    -               0.04    9.0   8.0      0.14    7.3   0.3   2.8   1   1   1   2   2   2   0 # 29918 # 30739 # -1 # ID=1_37;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.482
+contig_1|provirus_4595823_4642581_38 -          AGN34377@JF974314    -             2e-216  714.7   0.6  2.3e-216  714.5   0.6   1.0   1   0   0   1   1   1   1 # 20565 # 22490 # 1 # ID=1_38;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.542
+contig_1|provirus_372275_426020_31   -          AGN34377@JF974314    -           3.8e-215  710.5   0.4  4.3e-215  710.3   0.4   1.0   1   0   0   1   1   1   1 # 27479 # 29404 # -1 # ID=1_31;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.544
+contig_1|provirus_819672_865867_24   -          AGN34377@JF974314    -           4.5e-203  670.6   0.3  5.9e-203  670.2   0.3   1.0   1   0   0   1   1   1   1 # 20467 # 22395 # -1 # ID=1_24;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.524
+contig_1|provirus_2_25250_3          -          AGN34377@JF974314    -           9.4e-203  669.5   0.0  1.2e-202  669.1   0.0   1.0   1   0   0   1   1   1   1 # 723 # 2651 # 1 # ID=1_3;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=3-4bp;genetic_code=11;gc_cont=0.532
+contig_1|provirus_4595823_4642581_47 -          NP_046906@NC_001901  -            4.5e-86  282.4  14.3   5.3e-86  282.2  14.3   1.0   1   0   0   1   1   1   1 # 27830 # 28408 # 1 # ID=1_47;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=3-4bp;genetic_code=11;gc_cont=0.558
+contig_1|provirus_372275_426020_21   -          NP_046906@NC_001901  -            2.9e-85  279.8  14.7   3.3e-85  279.6  14.7   1.0   1   0   0   1   1   1   1 # 21563 # 22141 # -1 # ID=1_21;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=3-4bp;genetic_code=11;gc_cont=0.556
+contig_1|provirus_2_25250_12         -          NP_046906@NC_001901  -            2.1e-69  228.1  13.0   2.5e-69  227.8  13.0   1.1   1   0   0   1   1   1   1 # 8191 # 8724 # 1 # ID=1_12;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.522
+contig_1|provirus_819672_865867_15   -          NP_046906@NC_001901  -            1.8e-59  195.6  16.3   8.7e-42  137.9   8.0   2.1   2   0   0   2   2   2   2 # 14353 # 14928 # -1 # ID=1_15;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.516
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /net/intdev/cbb01/garushyants/CheckVDb/checkv-db-v1.5/hmm_db/checkv_hmms/68.hmm
+# Target file:     ecor11_cons_fdr_checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout ecor11_cons_fdr_checkv/tmp/hmmsearch/68.hmmout --noali -E 10 --cpu 0 /net/intdev/cbb01/garushyants/CheckVDb/checkv-db-v1.5/hmm_db/checkv_hmms/68.hmm ecor11_cons_fdr_checkv/tmp/proteins.faa 
+# Current dir:     /net/intdev/cbb01/garushyants/phages_Ecoli/20240703_prophage_prediction_ECOR20_Nobrega
+# Date:            Wed Jul  3 16:59:57 2024
+# [ok]

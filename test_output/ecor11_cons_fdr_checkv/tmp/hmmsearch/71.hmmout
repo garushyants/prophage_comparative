@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+contig_1|provirus_2_25250_26        -          YP_003934887@NC_014595 -            2.6e-15   51.4   0.0   4.1e-15   50.8   0.0   1.3   1   1   0   1   1   1   1 # 23331 # 23915 # 1 # ID=1_26;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.482
+contig_1|provirus_372275_426020_8   -          YP_003934887@NC_014595 -            5.9e-15   50.3   0.0   1.4e-14   49.1   0.0   1.5   1   1   0   1   1   1   1 # 6794 # 7369 # -1 # ID=1_8;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.483
+contig_1|provirus_4122549_4161646_5 -          YP_003934887@NC_014595 -            3.3e-11   38.1   0.0     4e-11   37.8   0.0   1.1   1   0   0   1   1   1   1 # 2254 # 2868 # -1 # ID=1_5;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.577
+contig_1|provirus_372275_426020_44   -          YP_004301590@NC_015254 -            2.6e-07   24.9   0.3   3.1e-07   24.6   0.3   1.1   1   0   0   1   1   1   1 # 36809 # 37141 # -1 # ID=1_44;partial=00;start_type=GTG;rbs_motif=AGGA;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.505
+contig_1|provirus_5146948_5171715_24 -          YP_004301590@NC_015254 -            8.1e-06   20.0   0.3   8.1e-06   20.0   0.3   1.6   2   0   0   2   2   2   1 # 14408 # 15454 # 1 # ID=1_24;partial=00;start_type=GTG;rbs_motif=GGAGG;rbs_spacer=3-4bp;genetic_code=11;gc_cont=0.550
+contig_1|provirus_819672_865867_39   -          YP_004301590@NC_015254 -            2.5e-05   18.4   0.3   2.5e-05   18.4   0.3   1.6   2   0   0   2   2   2   1 # 31123 # 32172 # -1 # ID=1_39;partial=00;start_type=GTG;rbs_motif=GGAGG;rbs_spacer=3-4bp;genetic_code=11;gc_cont=0.545
+contig_1|provirus_4122549_4161646_10 -          YP_004306392@NC_015265 -            5.6e-21   69.7   0.9   8.3e-14   46.2   0.1   2.1   2   0   0   2   2   2   2 # 5773 # 6474 # -1 # ID=1_10;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.564
+contig_1|provirus_4122549_4161646_9  -          YP_004306392@NC_015265 -            2.2e-15   51.3   0.1   2.6e-15   51.1   0.1   1.0   1   0   0   1   1   1   1 # 5372 # 5671 # -1 # ID=1_9;partial=00;start_type=GTG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;genetic_code=11;gc_cont=0.530
+contig_1|provirus_4122549_4161646_16 -          YP_004306856@NC_015273 -            5.7e-19   62.6  48.6   9.2e-12   38.7  33.3   4.8   1   1   2   3   3   3   3 # 9716 # 12928 # -1 # ID=1_16;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.524
+contig_1|provirus_4122549_4161646_6 -          YP_004421505@NC_015463 -            3.7e-05   16.8  35.7   0.00039   13.4  35.7   2.3   1   1   0   1   1   1   1 # 2868 # 4439 # -1 # ID=1_6;partial=00;start_type=GTG;rbs_motif=4Base/6BMM;rbs_spacer=13-15bp;genetic_code=11;gc_cont=0.562
+contig_1|provirus_4595823_4642581_18 -          YP_004894647@NC_016072 -              0.036    8.7   4.7     0.042    8.4   1.1   2.2   2   0   0   2   2   2   0 # 8197 # 8688 # -1 # ID=1_18;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.343
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /net/intdev/cbb01/garushyants/CheckVDb/checkv-db-v1.5/hmm_db/checkv_hmms/71.hmm
+# Target file:     ecor11_cons_fdr_checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout ecor11_cons_fdr_checkv/tmp/hmmsearch/71.hmmout --noali -E 10 --cpu 0 /net/intdev/cbb01/garushyants/CheckVDb/checkv-db-v1.5/hmm_db/checkv_hmms/71.hmm ecor11_cons_fdr_checkv/tmp/proteins.faa 
+# Current dir:     /net/intdev/cbb01/garushyants/phages_Ecoli/20240703_prophage_prediction_ECOR20_Nobrega
+# Date:            Wed Jul  3 16:59:51 2024
+# [ok]

@@ -1,0 +1,42 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad nn-classification (v1.7.1). This will classify the input  │
+│  sequences into chromosome, plasmid, or virus based on the nucleotide        │
+│  sequence.                                                                   │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    ecor11_cons_fdr/ecor11_nn_classification                                  │
+│    ├── ecor11_nn_classification.json (execution parameters)                  │
+│    ├── ecor11_encoded_sequences (directory containing encoded sequence       │
+│    │   data)                                                                 │
+│    ├── ecor11_nn_classification.tsv (contig classification: tabular format)  │
+│    ├── ecor11_nn_classification.npz (contig classification: binary format)   │
+│    ├── ecor11_encoded_proviruses (directory containing encoded sequence      │
+│    │   data)                                                                 │
+│    ├── ecor11_provirus_nn_classification.tsv (provirus classification:       │
+│    │   tabular format)                                                       │
+│    └── ecor11_provirus_nn_classification.npz (provirus classification:       │
+│        binary format)                                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[16:59:10] Executing genomad nn-classification.                                 
+[16:59:10] Creating the ecor11_cons_fdr/ecor11_nn_classification directory.     
+[16:59:10] Creating the                                                         
+           ecor11_cons_fdr/ecor11_nn_classification/ecor11_encoded_sequences    
+           directory.                                                           
+[16:59:13] Encoded sequence data written to ecor11_encoded_sequences.           
+[16:59:13] Creating the                                                         
+           ecor11_cons_fdr/ecor11_nn_classification/ecor11_encoded_proviruses   
+           directory.                                                           
+[16:59:13] Encoded provirus data written to ecor11_encoded_proviruses.          
+[16:59:24] Sequences classified.                                                
+[16:59:24] Sequence classification in binary format written to                  
+           ecor11_nn_classification.npz.                                        
+[16:59:24] Deleting encoded sequence data.                                      
+[16:59:24] Sequence classification in tabular format written to                 
+           ecor11_nn_classification.tsv.                                        
+[16:59:26] Proviruses classified.                                               
+[16:59:26] Provirus classification in binary format written to                  
+           ecor11_provirus_nn_classification.npz.                               
+[16:59:26] Deleting encoded provirus data.                                      
+[16:59:26] Provirus classification in tabular format written to                 
+           ecor11_provirus_nn_classification.tsv.                               
+[16:59:26] geNomad nn-classification finished!                                  

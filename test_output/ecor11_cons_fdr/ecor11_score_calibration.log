@@ -1,0 +1,69 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad score-calibration (v1.7.1). This will calibrate the       │
+│  classification scores based on the sample composition.                      │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    ecor11_cons_fdr/ecor11_score_calibration                                  │
+│    ├── ecor11_score_calibration.json (execution parameters)                  │
+│    ├── ecor11_compositions.tsv (estimated compositions: tabular format)      │
+│    ├── ecor11_compositions.npz (estimated compositions: binary format)       │
+│    ├── ecor11_calibrated_marker_classification.tsv (calibrated sequence      │
+│    │   marker-classification data: tabular format)                           │
+│    ├── ecor11_calibrated_marker_classification.npz (calibrated sequence      │
+│    │   marker-classification data: binary format)                            │
+│    ├── ecor11_calibrated_nn_classification.tsv (calibrated sequence          │
+│    │   nn-classification data: tabular format)                               │
+│    ├── ecor11_calibrated_nn_classification.npz (calibrated sequence          │
+│    │   nn-classification data: binary format)                                │
+│    ├── ecor11_calibrated_aggregated_classification.tsv (calibrated sequence  │
+│    │   aggregated-classification data: tabular format)                       │
+│    ├── ecor11_calibrated_aggregated_classification.npz (calibrated sequence  │
+│    │   aggregated-classification data: binary format)                        │
+│    ├── ecor11_provirus_calibrated_marker_classification.tsv (calibrated      │
+│    │   provirus marker-classification data: tabular format)                  │
+│    ├── ecor11_provirus_calibrated_marker_classification.npz (calibrated      │
+│    │   provirus marker-classification data: binary format)                   │
+│    ├── ecor11_provirus_calibrated_nn_classification.tsv (calibrated          │
+│    │   provirus nn-classification data: tabular format)                      │
+│    ├── ecor11_provirus_calibrated_nn_classification.npz (calibrated          │
+│    │   provirus nn-classification data: binary format)                       │
+│    ├── ecor11_provirus_calibrated_aggregated_classification.tsv (calibrated  │
+│    │   provirus aggregated-classification data: tabular format)              │
+│    └── ecor11_provirus_calibrated_aggregated_classification.npz (calibrated  │
+│        provirus aggregated-classification data: binary format)               │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[16:59:26] Executing genomad score-calibration.                                 
+[16:59:26] Creating the ecor11_cons_fdr/ecor11_score_calibration directory.     
+[16:59:26] The uncalibrated classification scores were loaded.                  
+[16:59:26] Your sample has less than 1,000 sequences, which does not allow      
+           precise composition estimation. The 'metagenome' preset will be used 
+           instead. If you want to force the empirical sample composition       
+           estimation anyway, use the --force-auto option.                      
+[16:59:26] Estimated compositions written to ecor11_compositions.tsv and        
+           ecor11_compositions.npz.                                             
+[16:59:26] The calibrated scores were computed.                                 
+[16:59:26] Calibrated scores in binary format written to                        
+           ecor11_calibrated_marker_classification.npz.                         
+[16:59:26] Calibrated scores in tabular format written to                       
+           ecor11_calibrated_marker_classification.tsv.                         
+[16:59:26] Calibrated scores in binary format written to                        
+           ecor11_provirus_calibrated_marker_classification.npz.                
+[16:59:26] Calibrated scores in tabular format written to                       
+           ecor11_provirus_calibrated_marker_classification.tsv.                
+[16:59:26] Calibrated scores in binary format written to                        
+           ecor11_calibrated_nn_classification.npz.                             
+[16:59:26] Calibrated scores in tabular format written to                       
+           ecor11_calibrated_nn_classification.tsv.                             
+[16:59:26] Calibrated scores in binary format written to                        
+           ecor11_provirus_calibrated_nn_classification.npz.                    
+[16:59:26] Calibrated scores in tabular format written to                       
+           ecor11_provirus_calibrated_nn_classification.tsv.                    
+[16:59:27] Calibrated scores in binary format written to                        
+           ecor11_calibrated_aggregated_classification.npz.                     
+[16:59:27] Calibrated scores in tabular format written to                       
+           ecor11_calibrated_aggregated_classification.tsv.                     
+[16:59:27] Calibrated scores in binary format written to                        
+           ecor11_provirus_calibrated_aggregated_classification.npz.            
+[16:59:27] Calibrated scores in tabular format written to                       
+           ecor11_provirus_calibrated_aggregated_classification.tsv.            
+[16:59:27] geNomad score-calibration finished!                                  

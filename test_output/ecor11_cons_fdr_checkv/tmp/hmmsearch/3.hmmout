@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+contig_1|provirus_372275_426020_41 -          CSD                  PF00313.22     4e-33  107.8   0.2   4.4e-33  107.7   0.2   1.0   1   0   0   1   1   1   1 # 34893 # 35108 # -1 # ID=1_41;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.352
+contig_1|provirus_372275_426020_36 -          CSD                  PF00313.22   7.2e-33  107.0   0.1   7.8e-33  106.9   0.1   1.0   1   0   0   1   1   1   1 # 32010 # 32222 # -1 # ID=1_36;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.404
+contig_1|provirus_372275_426020_42 -          CSD                  PF00313.22   3.7e-23   75.9   0.0     4e-23   75.8   0.0   1.0   1   0   0   1   1   1   1 # 35421 # 35621 # 1 # ID=1_42;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.488
+contig_1|provirus_372275_426020_43 -          Cytochrome_C7        PF14522.6      0.043    8.6   8.2       0.1    7.4   8.3   1.7   1   1   0   1   1   1   0 # 36043 # 36795 # -1 # ID=1_43;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.479
+contig_1|provirus_372275_426020_19   -          DUF1573              PF07610.11   0.00058   14.6   0.4     0.001   13.8   0.4   1.4   1   0   0   1   1   1   1 # 20423 # 21163 # -1 # ID=1_19;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.579
+contig_1|provirus_4595823_4642581_49 -          DUF1573              PF07610.11   0.00058   14.6   0.4     0.001   13.8   0.4   1.4   1   0   0   1   1   1   1 # 28808 # 29548 # 1 # ID=1_49;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.579
+contig_1|provirus_2_25250_14         -          DUF1573              PF07610.11    0.0006   14.5   0.7    0.0012   13.6   0.7   1.5   1   0   0   1   1   1   1 # 9124 # 9876 # 1 # ID=1_14;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.547
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /net/intdev/cbb01/garushyants/CheckVDb/checkv-db-v1.5/hmm_db/checkv_hmms/3.hmm
+# Target file:     ecor11_cons_fdr_checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout ecor11_cons_fdr_checkv/tmp/hmmsearch/3.hmmout --noali -E 10 --cpu 0 /net/intdev/cbb01/garushyants/CheckVDb/checkv-db-v1.5/hmm_db/checkv_hmms/3.hmm ecor11_cons_fdr_checkv/tmp/proteins.faa 
+# Current dir:     /net/intdev/cbb01/garushyants/phages_Ecoli/20240703_prophage_prediction_ECOR20_Nobrega
+# Date:            Wed Jul  3 16:59:50 2024
+# [ok]

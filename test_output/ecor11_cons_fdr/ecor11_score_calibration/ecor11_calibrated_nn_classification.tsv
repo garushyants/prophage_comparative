@@ -1,0 +1,3 @@
+seq_name	chromosome_score	plasmid_score	virus_score
+contig_2	0.0017	0.9964	0.0020
+contig_1	0.1290	0.8297	0.0412
